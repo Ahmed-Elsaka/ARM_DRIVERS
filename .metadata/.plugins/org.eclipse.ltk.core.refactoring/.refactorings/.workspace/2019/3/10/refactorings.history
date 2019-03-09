@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;LCD_Driver_ARM_elsaka&apos; to &apos;LCD_Driver_ARM&apos;" description="Rename resource &apos;LCD_Driver_ARM_elsaka&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/LCD_Driver_ARM_elsaka" name="LCD_Driver_ARM" stamp="1552112019320" updateReferences="true"/>
+</session>
