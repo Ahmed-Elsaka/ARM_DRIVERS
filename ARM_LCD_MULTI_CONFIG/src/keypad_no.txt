@@ -1,0 +1,96 @@
+
+		KPD_u8GetKeysState(States);
+		if(States[0] == 0)
+		{
+			LCD_u8ClearScreen();
+			/**************START: Test Code *************/
+			LCD_Au8writeStringWithIndex("1",8,0);
+			/**************END : Test Code**************/
+
+		}
+		else if(States[1] ==0)
+		{
+			LCD_u8ClearScreen();
+			/**************START: Test Code *************/
+			LCD_Au8writeStringWithIndex("4",8,0);
+			/**************END : Test Code**************/
+		}
+		else if(States[2] ==0)
+		{
+			LCD_u8ClearScreen();
+			/**************START: Test Code *************/
+			LCD_Au8writeStringWithIndex("7",8,0);
+			/**************END : Test Code**************/
+		}else if(States[3] == 0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("*",8,0);
+
+		}
+		else if(States[4] ==0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("2",8,0);
+		}
+		else if(States[5] ==0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("5",8,0);
+		}else if(States[6] ==0)
+		{
+			LCD_u8ClearScreen();
+			/**************START: Test Code *************/
+			LCD_Au8writeStringWithIndex("8",8,0);
+			/**************END : Test Code**************/
+		}
+		else if(States[7] ==0)
+		{
+			LCD_u8ClearScreen();
+			/**************START: Test Code *************/
+			LCD_Au8writeStringWithIndex("0",8,0);
+			/**************END : Test Code**************/
+		}else if(States[8] == 0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("3",8,0);
+
+		}
+		else if(States[9] ==0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("6",8,0);
+		}
+		else if(States[10] ==0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("9",8,0);
+		}
+		else if(States[11] ==0)
+		{
+			LCD_u8ClearScreen();
+			/**************START: Test Code *************/
+			LCD_Au8writeStringWithIndex("#",8,0);
+			/**************END : Test Code**************/
+		}
+		else if(States[12] ==0)
+		{
+			LCD_u8ClearScreen();
+			/**************START: Test Code *************/
+			LCD_Au8writeStringWithIndex("+",8,0);
+			/**************END : Test Code**************/
+		}else if(States[13] == 0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("-",8,0);
+
+		}
+		else if(States[14] ==0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("/",8,0);
+		}
+		else if(States[15] ==0)
+		{
+			LCD_u8ClearScreen();
+			LCD_Au8writeStringWithIndex("%",8,0);
+		}
